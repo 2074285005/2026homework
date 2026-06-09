@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>西北民族大学 · 大一新生综合服务指南</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Favicon 文字替代 -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+</head>
+<body>
+
+<!-- ============================================================
+     页面加载动画遮罩
+     ============================================================ -->
+<div id="page-loader">
+  <div class="loader-logo">西北民族大学 · 新生护航平台</div>
+  <div class="loader-spin"></div>
+</div>
+
+<!-- ============================================================
+     顶部固定导航栏
+     ============================================================ -->
+<nav class="navbar">
+  <div class="nav-brand">
+    <div class="nav-brand-icon">🎓</div>
+    <span>西北民族大学 · 新生指南</span>
+  </div>
+  <div class="nav-menu">
+    <a href="index.html" class="nav-link">首页</a>
+    <a href="life.html" class="nav-link">入学生活</a>
+    <a href="study.html" class="nav-link">选课教材</a>
+    <a href="activity.html" class="nav-link">社团活动</a>
+    <a href="tool.html" class="nav-link">校园工具</a>
+  </div>
+</nav>
+
+<!-- ============================================================
+     全屏轮播横幅区
+     ============================================================ -->
+<section class="hero-banner">
+  <!-- 粒子点缀层 -->
+  <div class="hero-particles"></div>
+
+  <!-- 幻灯片组（渐变占位，可替换为真实校园图片） -->
+  <div class="hero-slides">
+    <div class="hero-slide active" style="background-image:linear-gradient(135deg,#0F3875 0%,#1a6fa8 50%,#0ea5e9 100%)"></div>
+    <div class="hero-slide" style="background-image:linear-gradient(135deg,#0c2d6b 0%,#0F3875 40%,#1e5a3d 100%)"></div>
+    <div class="hero-slide" style="background-image:linear-gradient(135deg,#1e3a5f 0%,#2d6a4f 50%,#0F3875 100%)"></div>
+    <div class="hero-slide" style="background-image:linear-gradient(135deg,#0F3875 0%,#7c3aed 60%,#1a4f9e 100%)"></div>
+  </div>
+
+  <!-- 渐变叠加遮罩 -->
+  <div class="hero-overlay"></div>
+
+  <!-- 横幅主文字区 -->
+  <div class="hero-content">
+    <div class="hero-title">
+      西北民族大学<br/><span>新生一站式护航平台</span>
+    </div>
+    <p class="hero-sub">
+      告别信息零散 · 助力 2024 级新生快速适应精彩校园生活<br/>
+      · 报到攻略 · 选课指南 · 社团活动 · 校园工具 一站搞定 ·
+    </p>
+    <div class="hero-cta">
+      <a href="life.html" class="btn-primary">🚀 立即开启指南</a>
+      <a href="#entry" class="btn-outline">📖 了解更多</a>
+    </div>
+  </div>
+
+  <!-- 轮播左右箭头 -->
+  <button class="hero-arrow hero-prev">&#8249;</button>
+  <button class="hero-arrow hero-next">&#8250;</button>
+
+  <!-- 轮播圆点指示器 -->
+  <div class="hero-dots">
+    <span class="hero-dot active"></span>
+    <span class="hero-dot"></span>
+    <span class="hero-dot"></span>
+    <span class="hero-dot"></span>
+  </div>
+
+  <!-- 底部流光横幅装饰 -->
+  <div class="hero-shimmer"></div>
+</section>
+
+<!-- ============================================================
+     四大板块快捷入口
+     ============================================================ -->
+<section class="section" id="entry" style="background:var(--bg);">
+  <div class="container">
+    <div class="section-title scroll-reveal">
+      <h2>四大服务板块</h2>
+      <p>全方位覆盖新生校园生活所需，一站式导航</p>
+    </div>
+    <div class="entry-grid">
+
+      <!-- 入学生活 -->
+      <a href="life.html" class="entry-card delay-1">
+        <div class="entry-card-bg"></div>
+        <div class="entry-icon" style="background:linear-gradient(135deg,#dbeafe,#bfdbfe);">🏫</div>
+        <h3>入学生活指南</h3>
+        <p>报到流程、宿舍管理、校园点位、安全防骗、新生 FAQ 全覆盖</p>
+        <span class="entry-arrow">查看详情 →</span>
+      </a>
+
+      <!-- 选课教材 -->
+      <a href="study.html" class="entry-card delay-2">
+        <div class="entry-card-bg"></div>
+        <div class="entry-icon" style="background:linear-gradient(135deg,#dcfce7,#bbf7d0);">📚</div>
+        <h3>选课教材指南</h3>
+        <p>课程分类、选课参考、老师评价、教材选购攻略一网打尽</p>
+        <span class="entry-arrow">查看详情 →</span>
+      </a>
+
+      <!-- 社团活动 -->
+      <a href="activity.html" class="entry-card delay-3">
+        <div class="entry-card-bg"></div>
+        <div class="entry-icon" style="background:linear-gradient(135deg,#fef3c7,#fde68a);">🎭</div>
+        <h3>社团活动指南</h3>
+        <p>学生组织介绍、社团招新、竞赛志愿、理性选社建议</p>
+        <span class="entry-arrow">查看详情 →</span>
+      </a>
+
+      <!-- 校园工具 -->
+      <a href="tool.html" class="entry-card delay-4">
+        <div class="entry-card-bg"></div>
+        <div class="entry-icon" style="background:linear-gradient(135deg,#f3e8ff,#e9d5ff);">🛠️</div>
+        <h3>校园工具导航</h3>
+        <p>教务系统、学习工具、生活服务、便民平台一键直达</p>
+        <span class="entry-arrow">查看详情 →</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     分割线装饰
+     ============================================================ -->
+<hr class="divider-fancy" />
+
+<!-- ============================================================
+     项目简介区域
+     ============================================================ -->
+<section class="section about-section">
+  <div class="container">
+    <div class="about-grid">
+
+      <!-- 文字介绍 -->
+      <div class="about-text">
+        <span class="about-badge">📌 关于本项目</span>
+        <h3>西北民族大学<br/>新生护航计划</h3>
+        <p>
+          本平台由 <strong>Web 前端技术实践</strong> 课程小组——<strong>新生护航队</strong>
+          倾力打造，面向 2024 级全体新生，旨在解决信息分散、渠道繁杂的痛点。
+        </p>
+        <p>
+          我们深度调研校园生活，整合 <strong>报到流程、选课指引、社团地图、工具导航</strong>
+          四大模块，让每一位新同学都能快速、轻松地融入西民大大家庭。
+        </p>
+        <p>
+          本站纯前端实现，采用 <span class="text-gradient">HTML5 + CSS3 + 原生 JavaScript</span>
+          构建，无框架依赖，专注校园服务内容。
+        </p>
+        <div class="flex gap-8 wrap mt-16">
+          <span class="badge badge-primary">📅 2024 级适用</span>
+          <span class="badge badge-accent">🎓 西北民族大学</span>
+          <span class="badge badge-blue">💻 Web 前端实践</span>
+        </div>
+      </div>
+
+      <!-- 可视化数据卡 -->
+      <div class="about-visual">
+        <div class="about-visual-box">
+          <div class="about-stat">
+            <div class="stat-item">
+              <div class="stat-num">5</div>
+              <div class="stat-label">功能页面</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">30+</div>
+              <div class="stat-label">实用指南</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">100%</div>
+              <div class="stat-label">原生实现</div>
+            </div>
+          </div>
+          <div class="about-tags">
+            <span class="about-tag">🏫 报到攻略</span>
+            <span class="about-tag">📖 选课指南</span>
+            <span class="about-tag">🎭 社团活动</span>
+            <span class="about-tag">🛠️ 工具导航</span>
+            <span class="about-tag">❓ 新生 FAQ</span>
+            <span class="about-tag">🔒 安全防骗</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     分割线
+     ============================================================ -->
+<hr class="divider-fancy" />
+
+<!-- ============================================================
+     特色亮点区域
+     ============================================================ -->
+<section class="section" style="background:var(--bg2);">
+  <div class="container">
+    <div class="section-title scroll-reveal">
+      <h2>本站特色亮点</h2>
+      <p>专为西北民族大学新生量身定制</p>
+    </div>
+    <div class="content-grid content-grid-3" style="gap:24px;">
+
+      <div class="card scroll-reveal delay-1" style="padding:32px 24px;text-align:center;">
+        <div style="font-size:2.5rem;margin-bottom:16px;">📍</div>
+        <h4 style="color:var(--primary);margin-bottom:10px;font-size:1.05rem;">本校内容精准</h4>
+        <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.75;">
+          所有信息均来源于西北民族大学实地调研，覆盖兰州本部校区具体地点、时间、流程
+        </p>
+      </div>
+
+      <div class="card scroll-reveal delay-2" style="padding:32px 24px;text-align:center;">
+        <div style="font-size:2.5rem;margin-bottom:16px;">⚡</div>
+        <h4 style="color:var(--primary);margin-bottom:10px;font-size:1.05rem;">信息高效整合</h4>
+        <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.75;">
+          将分散在群聊、公众号、官网的新生信息汇聚成册，节省你大量查询时间
+        </p>
+      </div>
+
+      <div class="card scroll-reveal delay-3" style="padding:32px 24px;text-align:center;">
+        <div style="font-size:2.5rem;margin-bottom:16px;">🎨</div>
+        <h4 style="color:var(--primary);margin-bottom:10px;font-size:1.05rem;">轻量流畅体验</h4>
+        <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.75;">
+          纯原生技术实现，无需网络加载外部库，即使校园网络环境也能秒速打开
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     页脚
+     ============================================================ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">西北民族大学 · 大一新生综合服务指南</div>
+    <div class="footer-members">
+      Web 前端技术实践作业 · 小组：新生护航队<br/>
+      组长：德吉旺姆 P241012501 &nbsp;|&nbsp;
+      成员：景文媛 P241012512 &nbsp;|&nbsp; 马桂兰 P241012519
+    </div>
+    <div class="footer-copy">© 2026 版权所有 · 西北民族大学</div>
+  </div>
+</footer>
+
+<!-- 返回顶部按钮 -->
+<button id="back-top" title="返回顶部">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>

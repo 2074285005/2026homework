@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>校园常用工具导航 · 西北民族大学新生服务</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠️</text></svg>" />
+</head>
+<body>
+
+<!-- 加载动画 -->
+<div id="page-loader">
+  <div class="loader-logo">校园工具导航</div>
+  <div class="loader-spin"></div>
+</div>
+
+<!-- 顶部导航 -->
+<nav class="navbar">
+  <div class="nav-brand">
+    <div class="nav-brand-icon">🎓</div>
+    <span>西北民族大学 · 新生指南</span>
+  </div>
+  <div class="nav-menu">
+    <a href="index.html" class="nav-link">首页</a>
+    <a href="life.html" class="nav-link">入学生活</a>
+    <a href="study.html" class="nav-link">选课教材</a>
+    <a href="activity.html" class="nav-link">社团活动</a>
+    <a href="tool.html" class="nav-link">校园工具</a>
+  </div>
+</nav>
+
+<!-- 页面 Hero -->
+<section style="padding-top:var(--nav-h);background:linear-gradient(135deg,#0F3875 0%,#1e5a3d 50%,#0ea5e9 100%);color:#fff;padding-bottom:48px;padding-left:32px;padding-right:32px;">
+  <div class="container" style="padding-top:48px;">
+    <div class="scroll-reveal">
+      <span class="badge" style="background:rgba(255,255,255,0.2);color:#fff;margin-bottom:16px;display:inline-block;">🛠️ 工具导航</span>
+      <h1 style="font-size:clamp(1.8rem,4vw,3rem);font-weight:800;margin-bottom:12px;">校园常用工具导航</h1>
+      <p style="opacity:0.85;font-size:1.05rem;max-width:600px;">学习工具 · 生活服务 · 便民平台 · 系统入口，新生必备工具大合集</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     标签分类导航（无锚点，纯切换）
+     ============================================================ -->
+<section style="background:var(--bg);padding:48px 0 0;">
+  <div class="container">
+    <!-- 标签按钮组 -->
+    <div class="tab-bar scroll-reveal">
+      <button class="tab-btn active" data-tab="tab-study">📖 学习类工具</button>
+      <button class="tab-btn" data-tab="tab-life">🛒 生活类工具</button>
+      <button class="tab-btn" data-tab="tab-service">🌐 便民服务</button>
+    </div>
+
+    <!-- ============================================================
+         面板一：学习类工具
+         ============================================================ -->
+    <div class="tab-panel active" id="tab-study">
+      <div class="tool-grid">
+
+        <!-- 教务系统 -->
+        <div class="tool-card" data-url="http://jwc.xbmu.edu.cn">
+          <span class="tool-icon">🎓</span>
+          <div class="tool-name">教务管理系统</div>
+          <div class="tool-desc">查成绩、选课、查课表、培养方案、开具成绩单</div>
+          <div class="tool-link">🔗 前往系统</div>
+          <!-- 操作教程折叠 -->
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 打开教务系统首页<br/>
+              2. 输入学号和初始密码（身份证后6位）<br/>
+              3. 首次登录建议立即修改密码<br/>
+              4. 左侧菜单可找到成绩查询、课表、选课等功能<br/>
+              5. 选课期间务必在规定时间内完成操作
+            </div>
+          </div>
+        </div>
+
+        <!-- 超星学习通 -->
+        <div class="tool-card" data-url="#">
+          <span class="tool-icon">📱</span>
+          <div class="tool-name">超星学习通</div>
+          <div class="tool-desc">在线课程学习、签到、作业提交、考试、视频课</div>
+          <div class="tool-link">🔗 扫码下载 App</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. App Store / 应用宝搜索"学习通"下载安装<br/>
+              2. 注册时选择"西北民族大学"为学校<br/>
+              3. 绑定学号后可自动同步课程<br/>
+              4. 签到要注意位置/手势/二维码等多种方式<br/>
+              5. 课程视频需在规定截止日前完成
+            </div>
+          </div>
+        </div>
+
+        <!-- 中国知网 -->
+        <div class="tool-card" data-url="https://www.cnki.net">
+          <span class="tool-icon">🔬</span>
+          <div class="tool-name">中国知网</div>
+          <div class="tool-desc">学术论文、期刊查询，写作业、写论文必备数据库</div>
+          <div class="tool-link">🔗 前往知网</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 通过校园网可以免费下载（需连接校园网）<br/>
+              2. 校外使用：登录图书馆官网 → 数据库入口 → 知网<br/>
+              3. 下载格式推荐 PDF，CAJ 需要 CAJViewer 打开<br/>
+              4. 引用格式可在文献详情页直接复制
+            </div>
+          </div>
+        </div>
+
+        <!-- 图书馆系统 -->
+        <div class="tool-card" data-url="#">
+          <span class="tool-icon">📚</span>
+          <div class="tool-name">图书馆借阅系统</div>
+          <div class="tool-desc">图书查询、预约座位、续借、电子资源访问</div>
+          <div class="tool-link">🔗 前往图书馆</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 持学生证/一卡通在图书馆前台激活借阅权限<br/>
+              2. 通过图书馆官网检索图书位置（楼层+书架号）<br/>
+              3. 借书最长30天，可通过系统在线续借1次<br/>
+              4. 自习室座位通过微信小程序提前预约
+            </div>
+          </div>
+        </div>
+
+        <!-- WPS/Office -->
+        <div class="tool-card" data-url="https://www.wps.cn">
+          <span class="tool-icon">📝</span>
+          <div class="tool-name">WPS Office</div>
+          <div class="tool-desc">文档、表格、PPT编辑，大学期间最常用办公套件</div>
+          <div class="tool-link">🔗 下载 WPS</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 官网下载免费版即可满足日常需求<br/>
+              2. 用学生邮箱注册可获得更多免费权益<br/>
+              3. 支持多端同步，手机电脑均可使用<br/>
+              4. 论文写作建议用 Word 格式，确保与老师格式兼容
+            </div>
+          </div>
+        </div>
+
+        <!-- Zotero 文献管理 -->
+        <div class="tool-card" data-url="https://www.zotero.org">
+          <span class="tool-icon">🗂️</span>
+          <div class="tool-name">Zotero 文献管理</div>
+          <div class="tool-desc">免费文献管理工具，自动生成参考文献列表，论文必备</div>
+          <div class="tool-link">🔗 下载 Zotero</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 官网下载安装，同时安装浏览器插件<br/>
+              2. 浏览器打开论文页面，点击插件一键抓取<br/>
+              3. 整理文献到对应文件夹分类管理<br/>
+              4. Word中安装Zotero插件，自动生成引用格式
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============================================================
+         面板二：生活类工具
+         ============================================================ -->
+    <div class="tab-panel" id="tab-life">
+      <div class="tool-grid">
+
+        <!-- 一卡通 App -->
+        <div class="tool-card" data-url="#">
+          <span class="tool-icon">💳</span>
+          <div class="tool-name">校园一卡通 App</div>
+          <div class="tool-desc">查余额、充值、水电费缴纳、消费记录查询</div>
+          <div class="tool-link">🔗 扫码下载</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 在应用市场搜索学校一卡通App安装<br/>
+              2. 用学号注册，绑定已办理的一卡通<br/>
+              3. 绑定支付宝/微信可在线充值<br/>
+              4. 每月定期查看电费余额，避免断电
+            </div>
+          </div>
+        </div>
+
+        <!-- 校园外卖 -->
+        <div class="tool-card" data-url="#">
+          <span class="tool-icon">🍜</span>
+          <div class="tool-name">校园美团/饿了么</div>
+          <div class="tool-desc">周边餐厅外卖，足不出宿舍，学生专属优惠</div>
+          <div class="tool-link">🔗 前往点餐</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 注册时选择学生身份可领专属优惠券<br/>
+              2. 收货地址填写具体宿舍楼+房间号<br/>
+              3. 外卖员一般送至宿舍楼门口，自行取件<br/>
+              4. 晚上22:00后宿舍门禁，外卖需提前安排
+            </div>
+          </div>
+        </div>
+
+        <!-- 校园快递 -->
+        <div class="tool-card" data-url="#">
+          <span class="tool-icon">📦</span>
+          <div class="tool-name">丰巢/菜鸟取件</div>
+          <div class="tool-desc">校内快递到达通知、自助取件、超时提醒</div>
+          <div class="tool-link">🔗 前往取件</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 网购收货地址填写：甘肃省兰州市西北民族大学+宿舍<br/>
+              2. 快递到达后收到短信/App推送取件码<br/>
+              3. 前往校内快递驿站，凭取件码扫码提取<br/>
+              4. 注意超时会被退回，一般保管期7天
+            </div>
+          </div>
+        </div>
+
+        <!-- 健身预约 -->
+        <div class="tool-card" data-url="#">
+          <span class="tool-icon">🏋️</span>
+          <div class="tool-name">体育场馆预约</div>
+          <div class="tool-desc">篮球场、羽毛球、游泳馆等场馆在线预约</div>
+          <div class="tool-link">🔗 前往预约</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 通过学校体育部微信公众号进入预约系统<br/>
+              2. 选择场馆 → 日期 → 时间段 → 确认预约<br/>
+              3. 凭一卡通刷卡入场，不可转让<br/>
+              4. 如不能参加请提前取消，以免影响他人
+            </div>
+          </div>
+        </div>
+
+        <!-- 洗衣房预约 -->
+        <div class="tool-card" data-url="#">
+          <span class="tool-icon">👕</span>
+          <div class="tool-name">宿舍洗衣机系统</div>
+          <div class="tool-desc">各宿舍区洗衣机状态查询、扫码启动、余额充值</div>
+          <div class="tool-link">🔗 微信扫码使用</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 找到宿舍楼洗衣机，用微信扫描机身二维码<br/>
+              2. 关注公众号后可远程查看洗衣机是否空闲<br/>
+              3. 选择洗衣程序 → 确认支付 → 机器自动启动<br/>
+              4. 洗完后及时取走衣物，避免占用机器
+            </div>
+          </div>
+        </div>
+
+        <!-- 地图导航 -->
+        <div class="tool-card" data-url="https://map.baidu.com">
+          <span class="tool-icon">🗺️</span>
+          <div class="tool-name">百度地图校园版</div>
+          <div class="tool-desc">校内教室、食堂、办公楼定位导航，快速找路</div>
+          <div class="tool-link">🔗 前往地图</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 百度地图搜索"西北民族大学"进入校园地图<br/>
+              2. 部分地图支持室内导航，可找到具体楼层房间<br/>
+              3. 结合学校官方发布的校园平面图使用效果更好<br/>
+              4. 新生建议第一周多走走，熟悉校园布局
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============================================================
+         面板三：便民服务
+         ============================================================ -->
+    <div class="tab-panel" id="tab-service">
+      <div class="tool-grid">
+
+        <!-- 学生证 -->
+        <div class="tool-card" data-url="#">
+          <span class="tool-icon">🪪</span>
+          <div class="tool-name">学生证办理/补办</div>
+          <div class="tool-desc">首次办理、挂失补办，半价乘车、购票必备证件</div>
+          <div class="tool-link">🔗 前往学生处</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 新生入学后由学院统一发放，注意查收通知<br/>
+              2. 丢失后前往学生处填写挂失表申请补办<br/>
+              3. 学生证需每学年加盖注册章（开学后到学院盖章）<br/>
+              4. 火车票、景区门票等可凭学生证享受优惠
+            </div>
+          </div>
+        </div>
+
+        <!-- 医保报销 -->
+        <div class="tool-card" data-url="#">
+          <span class="tool-icon">🏥</span>
+          <div class="tool-name">医保 & 校医院</div>
+          <div class="tool-desc">在校医保激活、就医报销、常见病诊疗</div>
+          <div class="tool-link">🔗 前往校医院</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 开学后前往学生处确认医保参保状态<br/>
+              2. 在校就医：凭学生证和医保卡到校医院挂号<br/>
+              3. 校外就医需到医保定点医院，费用可报销<br/>
+              4. 报销流程：保留发票+病历 → 提交学生处/保险公司
+            </div>
+          </div>
+        </div>
+
+        <!-- 心理中心 -->
+        <div class="tool-card" data-url="#">
+          <span class="tool-icon">🧠</span>
+          <div class="tool-name">心理健康中心</div>
+          <div class="tool-desc">预约心理咨询、心理测评、压力解压资源</div>
+          <div class="tool-link">🔗 预约咨询</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 关注学校心理中心微信公众号进行预约<br/>
+              2. 咨询完全保密，不会通知家长或学院<br/>
+              3. 每次咨询约50分钟，免费<br/>
+              4. 适应困难、情绪低落时主动预约，别硬扛
+            </div>
+          </div>
+        </div>
+
+        <!-- 就业服务 -->
+        <div class="tool-card" data-url="#">
+          <span class="tool-icon">💼</span>
+          <div class="tool-name">就业 & 实习平台</div>
+          <div class="tool-desc">招聘信息、实习机会、简历指导、就业指导课</div>
+          <div class="tool-link">🔗 前往就业处</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 关注学校就业指导中心公众号获取招聘信息<br/>
+              2. 校园招聘会每年10月和3月举行<br/>
+              3. 大一就可以找寒暑假实习岗位积累经验<br/>
+              4. 简历模板和修改建议可到就业中心现场咨询
+            </div>
+          </div>
+        </div>
+
+        <!-- 打印复印 -->
+        <div class="tool-card" data-url="#">
+          <span class="tool-icon">🖨️</span>
+          <div class="tool-name">校内打印服务</div>
+          <div class="tool-desc">文档打印、复印、扫描，宿舍周边多处可用</div>
+          <div class="tool-link">🔗 查找打印点</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 校内各教学楼、图书馆旁均有打印店<br/>
+              2. 支持微信/一卡通支付，黑白约0.1元/页<br/>
+              3. 可通过微信小程序提前上传文件排队打印<br/>
+              4. 论文打印建议提前一天，高峰期排队较长
+            </div>
+          </div>
+        </div>
+
+        <!-- 失物招领 -->
+        <div class="tool-card" data-url="#">
+          <span class="tool-icon">🔍</span>
+          <div class="tool-name">校内失物招领</div>
+          <div class="tool-desc">物品丢失/找到后的发布渠道，校内表白墙、保卫处</div>
+          <div class="tool-link">🔗 前往校内平台</div>
+          <div class="tool-guide">
+            <div class="tool-guide-btn">
+              <span>📋 操作教程</span>
+              <span class="guide-arrow" style="transition:transform 0.3s ease;">▼</span>
+            </div>
+            <div class="tool-guide-content">
+              1. 丢失物品：在校内表白墙公众号发布寻物帖<br/>
+              2. 贵重物品（证件、手机）丢失先去保卫处登记<br/>
+              3. 捡到物品可交到保卫处或直接发表白墙<br/>
+              4. 证件类丢失同时联系学生处挂失处理
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- 快速入口提示 -->
+<section style="padding:48px 0 60px;background:var(--bg2);">
+  <div class="container">
+    <div class="section-title scroll-reveal">
+      <h2>⚡ 新生必装 App 清单</h2>
+      <p>开学第一周建议安装的 App，提前准备少手忙脚乱</p>
+    </div>
+    <div class="content-grid content-grid-4" style="gap:16px;">
+      <div class="card scroll-reveal delay-1" style="padding:20px;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:10px;">📱</div>
+        <h5 style="color:var(--primary);margin-bottom:6px;">超星学习通</h5>
+        <p style="font-size:0.8rem;color:var(--text-muted);">课程签到/作业</p>
+        <span class="badge badge-red" style="margin-top:8px;display:inline-block;">必装</span>
+      </div>
+      <div class="card scroll-reveal delay-2" style="padding:20px;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:10px;">💳</div>
+        <h5 style="color:var(--primary);margin-bottom:6px;">一卡通 App</h5>
+        <p style="font-size:0.8rem;color:var(--text-muted);">水电/消费管理</p>
+        <span class="badge badge-red" style="margin-top:8px;display:inline-block;">必装</span>
+      </div>
+      <div class="card scroll-reveal delay-3" style="padding:20px;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:10px;">❤️</div>
+        <h5 style="color:var(--primary);margin-bottom:6px;">志愿汇</h5>
+        <p style="font-size:0.8rem;color:var(--text-muted);">志愿时长记录</p>
+        <span class="badge badge-accent" style="margin-top:8px;display:inline-block;">推荐</span>
+      </div>
+      <div class="card scroll-reveal delay-4" style="padding:20px;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:10px;">🗺️</div>
+        <h5 style="color:var(--primary);margin-bottom:6px;">百度地图</h5>
+        <p style="font-size:0.8rem;color:var(--text-muted);">校园导航找路</p>
+        <span class="badge badge-blue" style="margin-top:8px;display:inline-block;">实用</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 页脚 -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">西北民族大学 · 大一新生综合服务指南</div>
+    <div class="footer-members">
+      Web 前端技术实践作业 · 小组：新生护航队<br/>
+      组长：德吉旺姆 P241012501 &nbsp;|&nbsp;
+      成员：景文媛 P241012512 &nbsp;|&nbsp; 马桂兰 P241012519
+    </div>
+    <div class="footer-copy">© 2026 版权所有 · 西北民族大学</div>
+  </div>
+</footer>
+
+<button id="back-top" title="返回顶部">↑</button>
+<script src="js/script.js"></script>
+</body>
+</html>
